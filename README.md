@@ -30,11 +30,13 @@ Windows OS (for certain OS-specific commands like os.startfile)
 Steps
 
 Clone the repository:
+
 git clone https://github.com/your-username/lightflash-converter.git
 cd lightflash-converter
 
 
 Install dependencies:
+
 pip install opencv-python pygame numpy
 
 
@@ -42,6 +44,7 @@ Ensure your webcam is connected and accessible (default device ID: 0).
 
 
 🚀 **Usage**
+
 Run the main script to start the command-line interface:
 python main.py
 
@@ -78,6 +81,7 @@ Flash specific patterns (e.g., 1100) to display phrases like "Just looking like 
 Demo
 
 ⚙️ **Configuration**
+
 Modify parameters in main.py to customize the application:
 
 webCamID: Set to your webcam device ID (default: 0).
@@ -94,6 +98,7 @@ AsciiDecryption.py: Manages flash-to-text decoding using OpenCV and ASCII.
 decryption4Bit.py: Implements the "fun" mode with 4-bit custom codes.
 
 🤝 **Contributing**
+
 Contributions are welcome! To contribute:
 
 Fork the repository.
@@ -104,10 +109,14 @@ Open a pull request.
 
 Please read our Contributing Guidelines for more details.
 📜 **License**
+
 This project is licensed under the MIT License.
+
 📬 **Contact**
 
 Email: nabeeharehmanali@gmail.com
+
 GitHub: nabeeharehman
+
 Project Link: lightflash-converter
 
