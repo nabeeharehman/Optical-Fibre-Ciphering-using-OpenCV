@@ -1,16 +1,15 @@
-LightFlash Converter
+**LightFlash Converter**
 
-Overview
-LightFlash Converter is a Python application that converts text to light flashes and decodes light flashes into text. Using Pygame, it displays text as a sequence of black ("0") and white ("1") flashes based on ASCII binary representation. With OpenCV, it captures light flashes via a webcam and decodes them into text. The project also includes a "fun" mode with custom codes for humorous phrases and media playback.
-Features
+LightFlash Converter is a Python application that converts text to light flashes and decodes light flashes into text. Using Pygame, it displays text as a sequence of black (0) and white (1) flashes based on ASCII binary representation. With OpenCV, it captures light flashes via a webcam and decodes them into text. The project also includes a fun mode with custom codes for humorous phrases and media playback.
+✨ Features
 
 Text to Flashes: Converts input text to binary (ASCII) and displays it as black and white flashes using Pygame.
 Flashes to Text: Captures light flashes via webcam (OpenCV) and decodes them into text using ASCII or custom codes.
 Custom Fun Mode: Decodes specific 4-bit codes into phrases like "Just looking like a wow. 😁" or triggers a video playback.
-Interactive CLI: Command-line interface for selecting modes (e.g., "Code to Light", "Light to Code", "Presentation").
+Interactive CLI: Command-line interface for selecting modes (e.g., Code to Light, Light to Code, Presentation).
 Configurable Parameters: Adjustable time delay, brightness threshold, and countdown duration.
 
-Table of Contents
+📑 **Table of Contents**
 
 Installation
 Usage
@@ -20,14 +19,15 @@ Contributing
 License
 Contact
 
-Installation
+🛠️ **Installation**
 Follow these steps to set up the project locally.
-Prerequisites:
+Prerequisites
 
 Python 3.8+
 Webcam (for flash-to-text functionality)
 Windows OS (for certain OS-specific commands like os.startfile)
 
+Steps
 
 Clone the repository:
 git clone https://github.com/your-username/lightflash-converter.git
@@ -41,7 +41,7 @@ pip install opencv-python pygame numpy
 Ensure your webcam is connected and accessible (default device ID: 0).
 
 
-Usage
+🚀 **Usage**
 Run the main script to start the command-line interface:
 python main.py
 
@@ -53,30 +53,31 @@ Light to Fun Code: Decode flashes into custom phrases or trigger a video.
 Presentation: Open the project presentation in your default browser.
 Exit/Quit: Close the program.
 
-Example Commands:
+_Example Commands_
 
-For text-to-flashes:
+Text to Flashes:
 Here: code to light
 Type your time delay in seconds: 0.25
 Type your code: hello
 
-The screen will flash black and white based on the binary representation of "hello".
+The screen will flash black and white based on the binary representation of hello.
 
-For flash-to-text:
+Flash to Text:
 Here: light to code
 Type your time delay in seconds: 0.25
 
 Point your webcam at a flashing screen to decode the text.
 
-For fun mode:
+Fun Mode:
 Here: light to fun code
 Type your time delay in seconds: 0.25
 
-Flash specific patterns (e.g., "1100") to display phrases like "Just looking like a wow. 😁".
+Flash specific patterns (e.g., 1100) to display phrases like "Just looking like a wow. 😁".
 
 
-Demo:
-Configuration
+Demo
+
+⚙️ **Configuration**
 Modify parameters in main.py to customize the application:
 
 webCamID: Set to your webcam device ID (default: 0).
@@ -85,14 +86,14 @@ ScanTime: Set the time delay between flash captures or displays (default: 0.25 s
 countDown_time: Duration of the countdown before flashing (default: 5 seconds).
 countDownColor: RGB color for the countdown background (default: red, (0,0,255)).
 
-Project Structure
+📂 **Project Structure**
 
 main.py: Entry point with the command-line interface and core logic.
 AsciiEncryption.py: Handles text-to-flash conversion using Pygame.
 AsciiDecryption.py: Manages flash-to-text decoding using OpenCV and ASCII.
 decryption4Bit.py: Implements the "fun" mode with 4-bit custom codes.
 
-Contributing
+🤝 **Contributing**
 Contributions are welcome! To contribute:
 
 Fork the repository.
@@ -102,14 +103,11 @@ Push to the branch (git push origin feature-branch).
 Open a pull request.
 
 Please read our Contributing Guidelines for more details.
-License
+📜 **License**
 This project is licensed under the MIT License.
-Contact
+📬 **Contact**
 
-Your Name: Your Email
-GitHub: your-username
+Email: nabeeharehmanali@gmail.com
+GitHub: nabeeharehman
 Project Link: lightflash-converter
-
-
-Built with ❤️ by Your Name
 
